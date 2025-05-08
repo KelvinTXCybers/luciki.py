@@ -12,6 +12,6 @@ Bot Telegram untuk **menghasilkan data pengguna palsu** (nama, nomor HP, alamat,
 apt update -y && apt upgrade -y
 pkg install git python -y
 pip install --upgrade pip
-git clone --depth 1 https://github.com/luciku/Telegram-EmailTracker.git
+git clone --depth 1 https://github.com/KelvinTXCybers/Telegram-EmailTracker.git
 cd Telegram-EmailTracker
 python luciku.py
