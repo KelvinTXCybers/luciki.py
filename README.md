@@ -1,15 +1,18 @@
+# Telegram Email Tracker Bot
+
+Bot Telegram untuk **menghasilkan data pengguna palsu** (nama, nomor HP, alamat, NIK, Facebook, dan Instagram) berdasarkan input email dari pengguna. Data tidak nyata, hanya simulasi.
+
+> 📢 Ini adalah tools edukasi — gunakan secara etis dan jangan untuk melanggar hukum.
 
 ---
 
-## 📦 Upload ke GitHub
-
-Setelah semua file siap:
+## 🛠️ Cara Install & Jalankan (Termux / Linux)
 
 ```bash
+apt update -y && apt upgrade -y
+pkg install git python -y
+pip install --upgrade pip
+git clone --depth 1 https://github.com/username/Telegram-EmailTracker.git
 cd Telegram-EmailTracker
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/your_username/Telegram-EmailTracker.git
-git push -u origin main
+pip install -r requirements.txt
+python luciku.py
