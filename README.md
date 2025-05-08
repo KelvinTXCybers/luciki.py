@@ -14,5 +14,4 @@ pkg install git python -y
 pip install --upgrade pip
 git clone --depth 1 https://github.com/username/Telegram-EmailTracker.git
 cd Telegram-EmailTracker
-pip install -r requirements.txt
 python luciku.py
