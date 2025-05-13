@@ -13,5 +13,5 @@ apt update -y && apt upgrade -y
 pkg install git python -y
 pip install --upgrade pip
 git clone --depth 1 https://github.com/KelvinTXCybers/luciki.py.git
-cd Telegram-EmailTracker
+cd luciki.py
 python luciku.py
